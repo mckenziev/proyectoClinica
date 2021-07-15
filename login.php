@@ -40,7 +40,7 @@
                             session_start();
                             
                             $_SESSION["loggedin"] = true;
-                            $_SESSION["usuario"] = $_usuario;                        
+                            $_SESSION["usuario"] = $username;                        
                             
                             header("location: index.php");
                         } else{
